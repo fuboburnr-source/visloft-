@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html lang="en"><head>
+<meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/>
+<meta content="#09090d" name="theme-color"/><meta content="Browse independent photographers, videographers, engineers, editors, acting readers and coaches connected with Visloft Studios." name="description"/>
+<title>Professionals | Visloft Studios</title><link href="assets/css/styles.css" rel="stylesheet"/>
+<link href="assets/images/brand/favicon.png" rel="icon" type="image/png"/></head><body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="navbar"><div class="container nav">
+<a aria-label="Visloft Studios home" class="brand" href="index.html"><img alt="Visloft Studios" src="assets/images/brand/visloft-logo-transparent.png"/></a>
+<nav aria-label="Primary" class="navlinks"><a href="index.html">Home</a><a href="spaces.html">Spaces</a><a aria-current="page" href="professionals.html">Professionals</a><a href="contact.html">Contact</a><a class="navcta" href="contact.html?type=space">Request a Space</a></nav>
+<button aria-expanded="false" aria-label="Open navigation" class="menu-btn">☰</button>
+</div></header>
+<nav aria-label="Mobile" class="mobile-nav">
+<a href="index.html">Home</a><a href="spaces.html">Spaces</a><a href="professionals.html">Professionals</a><a href="contact.html">Contact</a><a href="contact.html?type=space">Request a Space</a>
+</nav>
+<main id="main">
+<section class="page-hero professionals-hero"><div class="container"><div class="eyebrow">Independent professional network</div><h1 class="title">Find the right person<br/>for <span class="serif accent">the project.</span></h1>
+<p class="copy">These professionals operate independently from Visloft. They set their own rates, equipment, software and availability, and clients pay them directly. Visloft provides the space and helps make the introduction.</p></div></section>
+<section class="section paper" style="padding-top:40px"><div class="container">
+<div aria-label="Professional categories" class="pro-toolbar">
+<button class="filter-btn active" data-filter="all">All</button><button class="filter-btn" data-filter="photographer">Photographers</button><button class="filter-btn" data-filter="videographer">Videographers</button><button class="filter-btn" data-filter="music-engineer">Music Engineers</button><button class="filter-btn" data-filter="podcast-engineer">Podcast Engineers</button><button class="filter-btn" data-filter="acting-reader">Acting Readers</button><button class="filter-btn" data-filter="editor">Editors</button><button class="filter-btn" data-filter="acting-coach">Acting Coach</button>
+</div>
+<p class="legacy-note"></p>
+<div class="pro-grid" id="professional-grid"></div></div></section>
+<section class="section"><div class="container partner"><div class="partner-logo"><img alt="Dream2Screen" src="assets/images/brand/dream2screen.webp"/></div><div><div class="eyebrow">Partner spotlight</div><h2 class="title small">Dream2Screen <span class="serif accent">acting coaching.</span></h2><p class="copy">Dream2Screen is a Visloft partner for premium on-camera acting coaching. It is an optional professional service, not part of the base studio rental.</p><div class="actions"><a class="btn btn-light" href="contact.html?professional=Jordan%20Belliveau%20%2F%20Dream2Screen">Inquire about coaching</a></div></div></div></section>
+<div aria-hidden="true" class="modal" id="profile-modal"><div class="modal-backdrop"></div><div aria-labelledby="modal-name" aria-modal="true" class="modal-panel" role="dialog"><button aria-label="Close profile" class="modal-close">×</button><div class="modal-content"><div class="modal-photo"><img alt="" id="modal-photo"/></div><div class="modal-info"><div class="modal-roles" id="modal-roles"></div><h2 id="modal-name"></h2><p id="modal-bio"></p>
+<div class="modal-section"><h4>Rates / packages</h4><div class="rate-list" id="modal-rates"></div></div><div class="modal-section"><h4>Equipment &amp; software</h4><div class="tool-list" id="modal-tools"></div></div><div class="modal-section"><h4>Availability</h4><div class="availability" id="modal-availability"></div></div><div class="modal-section"><p style="font-size:12px;color:#77747e">Independent provider. Payment is made directly to the professional. Equipment and software availability may vary by project.</p><a class="btn btn-purple" href="contact.html" id="modal-inquire">Request an introduction</a></div></div></div></div></div>
+</main>
+<footer class="footer"><div class="container">
+<div class="footer-grid">
+<div><img alt="Visloft Studios" class="footer-logo" src="assets/images/brand/visloft-logo-transparent.png"/><p class="copy">Elevated creative, event and professional spaces in downtown Toronto.</p></div>
+<div><h4>Explore</h4><a href="spaces.html">Spaces</a><a href="professionals.html">Professionals</a><a href="contact.html">Contact</a></div>
+<div><h4>Connect</h4><a href="mailto:Visloft00@gmail.com">Visloft00@gmail.com</a><a href="https://www.instagram.com/visloft_studios/" rel="noopener" target="_blank">Instagram ↗</a><a href="https://www.linkedin.com/company/visloft-studios/home/" rel="noopener" target="_blank">LinkedIn ↗</a></div>
+<div><h4>Location</h4><a href="contact.html">Downtown Toronto</a><a href="contact.html">Jarvis Location · Temporarily Unavailable</a><a href="contact.html">Request availability</a><a href="spaces.html#garden-lounge">131 Mill St · Distillery District</a></div>
+</div>
+<div class="fine"><span>© <span data-year=""></span> Visloft Studios. All rights reserved.</span><span>Space rentals by inquiry · Independent professionals are paid directly.</span></div>
+</div></footer>
+<script src="assets/js/site.js"></script>
+<script src="assets/js/professionals.js"></script><script>const q=new URLSearchParams(location.search).get("filter");if(q){const b=document.querySelector(`[data-filter="${q}"]`);if(b)b.click();}</script></body></html>
